@@ -1,15 +1,64 @@
-h1{
-    font-size: 50px ; 
-    color: #7b0bfa;
+body{
+    margin:0;
+    font-family: 'Texturina', serif;
+
+    font-size: 20px;
+    line-height: 38px;
 
 }
-.posida{
+header{
+    background-color: #FF69B4;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+header h1{
+    color:white;
+    font-size:50px;
+}
+header img{
+    border-radius: 170px;
+    width: 300px;
+    border: 10px solid lightyellow;
+}
+main{
+    max-width: 800px;
+    margin: 0  auto;
+    padding: 20px ;
+}
+main img{
+max-width:60%;
+margin: 0 130px;
+
+
+}
+h2{
+    font-size: 34px;
+    color:	#FF1493;
+}
+a{
+    color:	#FF1493;
+}
+a:hover{
+    color:white;
+    background-color:#800080;  
+
+}/*this is a hover pseudo class*/
+footer{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    background-color:#FF1493;  
+    padding:30px;
+  
+}
+footer a{
+  color:#ffffff;    
+}
+footer a:hover{
+    opacity: 5px;
+    background-color: transparent; 
+  }
+  footer p{
+      margin:0;
+  }
  
-    font-size: 50px ; 
-    color: cyan;
-
-}
-span{
-
-    color: darkkhaki;
-}
